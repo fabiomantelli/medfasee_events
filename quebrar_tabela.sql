@@ -4,12 +4,14 @@ USE db_smf;
 
 SHOW TABLES;
 
-CREATE t_reg_fasor_20201119_bkp 
+CREATE TABLE t_reg_fasor_20201119_bkp 
   LIKE t_reg_fasor_20201119;
+
+  aa
 
 SHOW TABLES;
 
-INSERT t_reg_fasor_20201119_bkp
+INSERT INTO t_reg_fasor_20201119_bkp
   SELECT * FROM t_reg_fasor_20201119;
 
 /* 20/11/2020 */
